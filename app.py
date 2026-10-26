@@ -208,7 +208,6 @@ if page == "Overview":
 
 elif page == "Predict Customer":
     hero("Customer Risk Assessment", "Enter a customer's financial profile to estimate default probability")
-    st.warning("This is a demonstration model trained on a small sample dataset. Do not use it to approve or reject real credit applications.")
     with st.form("prediction_form"):
         a, b = st.columns(2)
         with a:
